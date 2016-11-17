@@ -28,7 +28,10 @@ export default class MyProfile extends React.Component {
   }
 
   render() {
-    var Users;
+    return (
+    <p>{this.state.users.userName}</p>
+  )
+    /*var Users;
     var watchList;
 
     if(this.state.users) {
@@ -97,6 +100,6 @@ export default class MyProfile extends React.Component {
         </div>
       </div>
     </div>
-  );
+  );*/
 }
 }
